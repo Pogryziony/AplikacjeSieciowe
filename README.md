@@ -5,3 +5,9 @@
     </a>
 
 W tym repozytorium znajduje się zbiór zadań wykonanych na zajęcia z przedmiotu Aplikacje Sieciowe.
+
+## Ćwiczenia
+
+| #    | Zadanie                                                    |  Rozwiązanie                                                     |
+| ---- | :----------------------------------------------------------- | ------------------------------------------------------------ |
+| 1    | Kalkulator kredytowy| [<a href="https://github.com/Pogryziony/AplikacjeSieciowe/tree/KalkulatorKredytowy">Rozwiązanie</a>] |
