@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+.center-site {
+  width: 80%;
+  height: 200px;
+  background: rgba(0, 60, 255, 0.445);
+  margin: auto;
+  padding: 10px;
+}
+
+.form {
+  width: 15%;
+  height: 200px;
+  background: rgba(237, 218, 255, 0.753);
+  float: left;
+}
+
+.informations {
+  margin-left: 15%;
+  height: 200px;
+  background: rgb(179, 255, 219);
+}
+
+.loanValue {color: #4caf4f;} /* Green */
+.numberOfMonths {color: #2195f3;} /* Blue */
+.interestRate {color: #ff9900;} /* Orange */
+
+#result {
+  background-color: yellow;
+}
