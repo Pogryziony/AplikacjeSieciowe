@@ -16,7 +16,7 @@
 <h1 align="center"> Kalkulator kredytowy</h1>
     
     <div style="width:90%; margin: 2em auto;">
-
+            
 		<form action="<?php print(_APP_ROOT); ?>/application/calc.php" method="post" class="form-horizontal">
                     <div class="form-group" style="margin-bottom: ">
 			<label for="id_loanValue" class = "col-sm-2 control-label">Wartość kredytu: </label>

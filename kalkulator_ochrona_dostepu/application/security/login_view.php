@@ -3,22 +3,34 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Logowanie</title>
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" <meta charset="utf-8" />
 </head>
 <body>
 
 <div style="width:90%; margin: 2em auto;">
 
-<form action="<?php print(_APP_ROOT); ?>/application/security/login.php" method="post" class="pure-form pure-form-stacked">
-	<legend>Logowanie</legend>
-	<fieldset>
-		<label for="id_login">login: </label>
-		<input id="id_login" type="text" name="login" value="<?php out($form['login']); ?>" />
-		<label for="id_pass">pass: </label>
-		<input id="id_pass" type="password" name="pass" />
-	</fieldset>
-	<input type="submit" value="zaloguj" class="pure-button pure-button-primary"/>
-</form>	
+
+    <form action="<?php print(_APP_ROOT); ?>/application/security/login.php" method="post" class="form-horizontal">
+            <legend>Logowanie</legend>
+            
+            <div class="form-group">
+                <label for="id_login" class="col-sm-2 control-label">Login: </label>
+                <div class="col-sm-10">
+                <input id="id_login" type="text" class="form-control" name="login" value="<?php out($form['login']); ?>" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="id_pass" class="col-sm-2 control-label">Password: </label>
+                <div class="col-sm-10">
+                <input id="id_pass" class="form-control"  type="password" name="pass" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                <input type="submit" value="zaloguj" class="btn btn-primary"/>
+                </div>
+            </div>
+    </form>	
 
 <?php
 //wyświeltenie listy błędów, jeśli istnieją
