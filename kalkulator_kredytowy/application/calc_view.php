@@ -1,34 +1,25 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 <head>
-<link rel="stylesheet" href="style.css">
-<meta charset="utf-8" />
-<title>Kalkulator kredytowy</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <meta charset="utf-8" />
+    <title>Kalkulator kredytowy</title>
 </head>
 <body>
 
-<div id='title' align='center'>
-	<h1 text-align="center"> Kalkulator kredytowy</h1>
-</div>
+	<h1 align="center"> Kalkulator kredytowy</h1>
 
-<div class='center-site'>
-	<div class='form' float='left'>
-		<form action="<?php print(_APP_URL);?>/application/calc.php" method="post">
+        <form action="<?php print(_APP_URL);?>/application/calc.php" method="post" class="pure-form pure-form-stacked">
 			<label for="id_loanValue" class = "label loanValue">Wartość kredytu: </label>
 			<input id="id_loanValue" type="text" name="loanValue" value="<?php if(isset($loanValue)) print($loanValue); ?>" /><br /><br />
 			<label for="id_numberOfMonths" class = "label numberOfMonths">Ilość miesięcy: </label>
 			<input id="id_numberOfMonths" type="text" name="numberOfMonths" value="<?php if(isset($numberOfMonths)) print($numberOfMonths); ?>" /><br /><br />
 			<label for="id_interestRate" class = "label interestRate">Stopa oprocentowania: </label>
 			<input id="id_interestRate" type="text" name="interestRate" value="<?php if(isset($interestRate)) print($interestRate); ?>" /><br /><br />
-			<input type="submit" value="Oblicz" />
+                        <input type="submit" class="pure-button pure-button-primary" value="Oblicz" />
 		</form>	
-	</div>
 
-	<div class='informations' float='right'>
-		
-		
-	</div>
-</div>
+
 
 <div id='result'>
 	<?php 
