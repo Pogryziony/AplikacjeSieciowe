@@ -11,3 +11,4 @@ W tym repozytorium znajduje się zbiór zadań wykonanych na zajęcia z przedmio
 | #    | Zadanie                                                    |  Rozwiązanie                                                     |
 | ---- | :----------------------------------------------------------- | ------------------------------------------------------------ |
 | 1    | Kalkulator kredytowy| [<a href="https://github.com/Pogryziony/AplikacjeSieciowe/tree/KalkulatorKredytowy">Rozwiązanie</a>] |
+| 2    | Kalkulator kredytowy z logowaniem| [<a href="https://github.com/Pogryziony/AplikacjeSieciowe/tree/KalkulatorKredytowyZLogowaniem">Rozwiązanie</a>] |
