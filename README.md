@@ -12,4 +12,4 @@ W tym repozytorium znajduje się zbiór zadań wykonanych na zajęcia z przedmio
 | ---- | :----------------------------------------------------------- | ------------------------------------------------------------ |
 | 1    | Kalkulator kredytowy| [<a href="https://github.com/Pogryziony/AplikacjeSieciowe/tree/KalkulatorKredytowy">Rozwiązanie</a>] |
 | 2    | Kalkulator kredytowy z logowaniem| [<a href="https://github.com/Pogryziony/AplikacjeSieciowe/tree/KalkulatorKredytowyZLogowaniem">Rozwiązanie</a>] |
-| 3    | Szablonowanie| [<a href="https://github.com/Pogryziony/AplikacjeSieciowe/tree/szablon_lab_04">Rozwiązanie</a>] |
+| 3    | Szablonowanie| [<a href="https://github.com/Pogryziony/AplikacjeSieciowe/tree/szablon-lab-04">Rozwiązanie</a>] |
